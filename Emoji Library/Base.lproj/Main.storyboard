@@ -34,6 +34,9 @@
                             <constraint firstItem="WGx-iS-PGe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Rwf-db-UjB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emojiTable" destination="WGx-iS-PGe" id="F6y-vl-kdy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
