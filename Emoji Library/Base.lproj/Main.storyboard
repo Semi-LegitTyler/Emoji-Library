@@ -77,6 +77,10 @@
                             <constraint firstItem="4SM-4a-xhK" firstAttribute="top" secondItem="H9b-ci-I1r" secondAttribute="bottom" constant="100" id="pnt-vy-MKs"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="definitionLabel" destination="4SM-4a-xhK" id="SgD-oU-5Qk"/>
+                        <outlet property="emojiLabel" destination="H9b-ci-I1r" id="KNj-dX-nQd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aSR-Gt-avI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
