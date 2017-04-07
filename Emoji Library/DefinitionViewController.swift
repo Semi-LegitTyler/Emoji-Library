@@ -24,7 +24,25 @@ class DefinitionViewController: UIViewController {
         
         emojiLabel.text = emoji
         
-        definitionLabel.text = "Hello"
+        if emoji == "😁" {
+            definitionLabel.text = "A REALLY happy guy."
+        }
+        if emoji == "😅" {
+            definitionLabel.text = "Laughing til you sweat."
+        }
+        if emoji == "☺️" {
+            definitionLabel.text = "Dang you made me blush."
+        }
+        if emoji == "😎" {
+            definitionLabel.text = "Too cool for school."
+        }
+        if emoji == "🤠" {
+            definitionLabel.text = "Westworld."
+        }
+        if emoji == "😜" {
+            definitionLabel.text = "Just fuckin with ya."
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
