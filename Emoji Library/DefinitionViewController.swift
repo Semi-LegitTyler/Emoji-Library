@@ -16,6 +16,9 @@ class DefinitionViewController: UIViewController {
     
     @IBOutlet weak var definitionLabel: UILabel!
     
+    @IBOutlet weak var categoryLabel: UILabel!
+    
+    @IBOutlet weak var originLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
