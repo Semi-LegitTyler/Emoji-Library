@@ -51,6 +51,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // Dispose of any resources that can be recreated.
     }
     
-    
+    func returnEmojiArray() -> [Emoji] {
+        let emoji1 = Emoji()
+        emoji1.definition = "Generic Smiley face"
+        emoji1.category = "Face"
+        emoji1.origin = 2010
+        emoji1.stringEmoji = "😀"
+        
+        return 
+    }
 }
 
